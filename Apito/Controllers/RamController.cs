@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System.Runtime;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Apito.Controllers;
 
@@ -12,7 +13,9 @@ public class RamController : Controller
     {
         var res = $"{GC.GetTotalMemory(false) / 1024 / 1024} MB (managed)"
                   + Environment.NewLine +
-                  $"System: {Environment.WorkingSet / 1024 / 1024} MB (total)";
+                  $"System: {Environment.WorkingSet / 1024 / 1024} MB (total)"
+                  + Environment.NewLine +
+                  $"IsServerGC: {GCSettings.IsServerGC}";
 
         return Ok(res);
     }

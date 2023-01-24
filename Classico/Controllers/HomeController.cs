@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using System.Runtime;
 using Microsoft.AspNetCore.Mvc;
 using Classico.Models;
 
@@ -17,7 +18,9 @@ public class HomeController : Controller
     {
         var res = $"{GC.GetTotalMemory(false) / 1024 / 1024} MB (managed)"
                   + Environment.NewLine +
-                  $"System: {Environment.WorkingSet / 1024 / 1024} MB (total)";
+                  $"System: {Environment.WorkingSet / 1024 / 1024} MB (total)"
+                  + Environment.NewLine +
+                  $"IsServerGC: {GCSettings.IsServerGC}";
 
         ViewBag.RAM = res;
 
