@@ -1,0 +1,7 @@
+D:\Projects\AspRam\Minimale\obj\rider-publish\Minimale.exe
+D:\Projects\AspRam\Minimale\obj\rider-publish\appsettings.Development.json
+D:\Projects\AspRam\Minimale\obj\rider-publish\appsettings.json
+D:\Projects\AspRam\Minimale\obj\rider-publish\Minimale.dll
+D:\Projects\AspRam\Minimale\obj\rider-publish\Minimale.deps.json
+D:\Projects\AspRam\Minimale\obj\rider-publish\Minimale.runtimeconfig.json
+D:\Projects\AspRam\Minimale\obj\rider-publish\Minimale.pdb
