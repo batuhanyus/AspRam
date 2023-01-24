@@ -17,4 +17,5 @@ RUN dotnet publish "Minimale.csproj" -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
+ENV ASPNETCORE_URLS="http://*:1453"
 ENTRYPOINT ["dotnet", "Minimale.dll"]

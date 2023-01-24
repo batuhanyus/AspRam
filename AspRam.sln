@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minimale", "Minimale\Minimale.csproj", "{03995E0C-7232-45BC-930E-4B5CDE5C2AA3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classico", "Classico\Classico.csproj", "{D1483A93-A1AD-4938-A4FC-FD3388E3CB31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apito", "Apito\Apito.csproj", "{11E29A23-8E08-43E3-9A61-AA5CA7B38619}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{03995E0C-7232-45BC-930E-4B5CDE5C2AA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03995E0C-7232-45BC-930E-4B5CDE5C2AA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03995E0C-7232-45BC-930E-4B5CDE5C2AA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1483A93-A1AD-4938-A4FC-FD3388E3CB31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1483A93-A1AD-4938-A4FC-FD3388E3CB31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1483A93-A1AD-4938-A4FC-FD3388E3CB31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1483A93-A1AD-4938-A4FC-FD3388E3CB31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11E29A23-8E08-43E3-9A61-AA5CA7B38619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11E29A23-8E08-43E3-9A61-AA5CA7B38619}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11E29A23-8E08-43E3-9A61-AA5CA7B38619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11E29A23-8E08-43E3-9A61-AA5CA7B38619}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
