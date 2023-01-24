@@ -2,7 +2,6 @@ var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
 app.Urls.Add("http://*:5000");
-app.Urls.Add("https://*:5000");
 
 
 app.MapGet("/", () => "Hello World!");
