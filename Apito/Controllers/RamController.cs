@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Apito.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("/")]
 public class RamController : Controller
 {
     // GET
